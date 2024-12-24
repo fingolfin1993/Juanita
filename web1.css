@@ -1,0 +1,122 @@
+.header{
+	width: 100%; 
+	height: 15%;
+	background-image: url(headerImgHeader.jpg); 
+	background-size: cover; 
+	background-position: center; 
+}
+body{
+	
+	background-color:black;
+	margin: 0; 
+	padding: 0;
+}
+h1{
+	position: relative;
+   	top: 25%;
+	text-align: center;
+	margin: 0;
+	font-size: 40px;
+	color: #fff;
+    text-shadow: 5px 5px 0 #ff005e, 10px 10px 0 #00d4ff;
+    animation: shadow-dance 2s infinite;
+
+
+}
+@keyframes shadow-dance {
+    0%, 100% {
+        text-shadow: 5px 5px 0 #ff005e, 10px 10px 0 #00d4ff;
+    }
+    50% {
+        text-shadow: -5px -5px 0 #00d4ff, -10px -10px 0 #ff005e;
+    }
+}
+#scrollBackGround{
+	height: 100%;
+	width: 100%; 
+	background-image: url(guadalupe.jpg); 
+	background-size: cover; 
+	background-position: center; 
+}
+h2{	
+	color: white;
+	text-align: center;
+	position: relative;
+   	top: 10%;
+   	text-shadow: 2px 2px 4px #000000;
+}
+h3{
+	position: relative;
+	left: 16%;
+	font-size: 30px;
+	color: black;
+	text-align: center;
+   	text-shadow: 2px 2px 4px #000000;
+   	margin-bottom: 0px;
+   	background-color: pink;
+   	width: 239px;
+   	border-radius: 10px 10px 10px 10px;
+}
+#container{
+	width: 400px;
+	height: 700px;
+	margin-left: auto;
+  	margin-right: auto;
+  	overflow:hidden;
+   	overflow-y: auto
+}
+.merch{
+	margin-bottom: 30px;
+	width: 375px; 
+	height: 530px;
+	margin-left: auto;
+  	margin-right: auto;
+  	border-radius: 10px 10px 10px 10px;
+
+	
+}
+.merch2{
+	margin-bottom: 30px;
+	width: 375px; 
+	height: 450px;
+	margin-left: auto;
+  	margin-right: auto;
+  	border-radius: 10px 10px 10px 10px;
+
+	
+}
+.inDiv{
+	display:inline-flex;
+	background-color: white;
+	border-radius: 10px 10px 10px 10px;
+}
+button{
+	position: relative;
+	bottom: 47%;
+	height: 200px;
+	text-align: center;
+	align-items: center;
+	font-size: 47px;
+	opacity: 0.6;
+}
+button:active {
+  background-color: black;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+img{
+	width: 270px;
+	height: 500px;
+	object-fit:cover;
+	border-radius: 10px 10px 10px 10px;
+	border-style: solid;
+  	border-color: white;
+}
+.smallerImg{
+	width: 270px;
+	height: 400px;
+	object-fit:cover;
+	border-radius: 10px 10px 10px 10px;
+	border-style: solid;
+  	border-color: white;
+}
